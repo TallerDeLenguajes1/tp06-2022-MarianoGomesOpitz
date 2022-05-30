@@ -52,9 +52,9 @@ class Funciones
             Console.WriteLine("\nIngrese el nombre:");
             nom = Console.ReadLine();
             Console.WriteLine("\nIngrese el estado civil (Soltera\\o: S, en Pareja: P, Casada\\o: C, Viuda\\o: V)");
-            civi = Console.ReadKey().KeyChar;
+            civi = Char.ToUpper(Console.ReadKey().KeyChar);
             Console.WriteLine("\nIngrese el género (Masculino: M, Femenino: F)");
-            gene = Console.ReadKey().KeyChar;
+            gene = Char.ToUpper(Console.ReadKey().KeyChar);
             Console.WriteLine("\nFecha de nacimiento:");
             Console.WriteLine("Ingrese el día:");
             dd = Convert.ToInt32(Console.ReadLine());
