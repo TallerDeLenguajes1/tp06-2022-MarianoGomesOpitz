@@ -1,8 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-
-
-
 string inp;
 double num;
 int verif1 = 0;
